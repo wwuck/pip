@@ -4,3 +4,18 @@ updates:
     directory: "/"
     schedule:
       interval: "monthly"
+
+  - package-ecosystem: pip
+    directory: /docs
+    schedule:
+      interval: daily
+
+  - package-ecosystem: pip
+    directory: /tests/data/completion_paths
+    schedule:
+      interval: daily
+
+  - package-ecosystem: pip
+    directory: /tests
+    schedule:
+      interval: daily
